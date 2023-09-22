@@ -15,6 +15,6 @@ public class SmsUtils {
     public static void sendSMS(String to, String messageBody) {
         Twilio.init(SID_KEY, TOKEN_KEY);
         Message message = creator(new PhoneNumber("+" + to), new PhoneNumber(FROM_NUMBER), messageBody).create();
-        System.out.println(message);
+        //System.out.println("message: "+message);
     }
 }
