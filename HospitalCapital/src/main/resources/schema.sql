@@ -1,11 +1,11 @@
 
-CREATE SCHEMA IF NOT EXISTS securecapita;
+CREATE SCHEMA IF NOT EXISTS hospitalcapital;
 
 SET NAMES 'UTF8MB4';
 SET TIME_ZONE = 'US/Eastern';
 SET TIME_ZONE = '-4:00';
 
-USE securecapita;
+USE hospitalcapital;
 
 DROP TABLE IF EXISTS Users;
 
